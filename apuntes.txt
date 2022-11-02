@@ -1,35 +1,19 @@
+IMPLANTACIÓN -- HECHO
 1. leer un fichero
-
 2. crear una lista de instancias de canciones (lista de objeto)
-
 3. modificar el bpm de todas las canciones 
-ej. python3 mod_bpm.py 10   # increase songs in 10bpm
-    python3 mod_bpm.py -25  # decrease songs in 25bpm
-
 4. crear fichero de salida con lista de las canciones modificadas
 
-para hoy, después del curso Python: 
-- definir la clase Song -> spotify.py  (Elise)
-- entender el proyecto (Maryam & Elise) 
-- revisamos y empezamos las funciones del mod_bpm.py
-
-repaso:
-método mágico __str__
-lectura fichero
-
-
-
-
+OPTIMIZACIÓN -- PARA HACER
+5. limpiar el codigo
+    5.1     __str__(self)
+    5.2     comprobar que change_speed es matematicamente correcto
+    5.3     quitar la variable folder_path y llamar al path de la carpeta
+    5.4     optimizar el tratamiento de los string/listas en el método load_songs
+6. implantar las buenas prácticas de desarrollo
+7. probar el codigo
+8. documentar el codigo
+9. excepciones? gestión de errores?
 
 
-spotify.py
--> crear la clase
--> definir los métodos de instancia
-
-
-
-mod_bpm.py
-leer fichero de entrada
--> función para abrir y leer el fichero linéa a linéa
--> hacer split, creat lista, generar instancias de Song
 

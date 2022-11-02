@@ -12,7 +12,9 @@ from spotify import Song
 5: danceability
 6: length'''
 
+# poner el path hacia la carpeta de Maryam 
 folder_path = '/home/ebouarouk/miniproyecto-spotify/'
+# quitar esto y llamar al path de la carpeta
 
 if __name__ == '__main__':
     input_file = 'top50.csv'

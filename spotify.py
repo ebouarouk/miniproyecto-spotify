@@ -30,6 +30,7 @@ class Song:
             song = song[0:3] + song[7::] # remove str duplicates
             songs.append(Song(*song)) # create instances and append to list
         return songs
+    # optimizar el codigo, hacerlo más guapo
 
     @staticmethod
     def save_songs(songs: list, path: str) -> None:
@@ -37,13 +38,3 @@ class Song:
         f = open(path, 'w')
         for song in songs:
             f.write(Song.__str__(song) + '\n')
-
-
-### testing
-'''
-path = '/home/ebouarouk/miniproyecto-spotify/top50.csv'
-songs = Song.load_songs(path)
-for object in songs:
-    print(Song.__str__(object))
-
-'''
