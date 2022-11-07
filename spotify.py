@@ -37,4 +37,4 @@ class Song:
         'Create a datafile of Song instances at path'
         f = open(path, 'w')
         for song in songs:
-            f.write(Song.__str__(song) + '\n')
+            f.write(Song.str(song) + '\n')
